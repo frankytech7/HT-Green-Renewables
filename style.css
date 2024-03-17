@@ -1,0 +1,184 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0.6rem;
+}
+
+nav img {
+    align-self: flex-start;
+}
+
+nav h1:nth-child(2) {
+    margin-left: auto;
+}
+
+nav h1 a {
+    text-decoration: none;
+    color: black;
+    padding: 0.6rem 1.2rem;
+    font-size: 12px;
+}
+
+header {
+    background-color: white;
+}
+
+body {
+    background-image: url(images/bg800bulbs.jpg);
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #544d47;
+    padding: 1rem;
+    border-radius: 10%;
+}
+
+main {
+    background-color: white;
+    padding-bottom: 5rem;
+}
+
+main h3 {
+    padding: 1rem;
+}
+
+article {
+    padding: 1rem;
+}
+
+article h3 {
+    padding: 0.5rem;
+}
+
+article img {
+    float: right;
+    padding: 1rem;
+    border-radius: 10%;
+    max-width: 100%; 
+}
+
+article p {
+    margin-top: 1rem;
+}
+
+figure {
+    padding: 1rem;
+    border: lightgray solid;
+    border-width: 0.1rem 0.1rem 0.1rem 0.5rem;
+    margin: 2rem;
+    overflow: auto;
+}
+
+figure h4 {
+    padding: 1rem;
+    margin: 0;
+}
+
+figure img {
+    padding: 0.5rem;
+    float: left;
+    margin-right: 1rem;
+}
+
+figure p {
+    padding: 1rem;
+    margin: 0;
+    overflow: auto;
+}
+
+.button {
+    padding: 0.5rem;
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none;
+    border-radius: 5rem;
+    border: 0.05rem solid grey;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin: 5vh 15vw;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: 100vh;
+    background-color: lightgray;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+input, textarea {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 1rem;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.submit {
+    width: 50%;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #a5461d;
+    padding: 0.5rem;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    body {
+        max-width: 100%;
+    }
+
+    article h1 {
+        font-size: 1.5rem;
+    }
+
+    nav h1 {
+        margin: 0.5rem 0;
+    }
+
+    article img,
+    figure img {
+        width: 100%; 
+    }
+    
+}
